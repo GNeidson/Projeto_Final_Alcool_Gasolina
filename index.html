@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Combustível</title>
+    <link rel="stylesheet" href="css/style.css"> </head>
+<body>
+    <div class="container">
+        <h1>Comparativo Álcool vs. Gasolina</h1>
+
+        <div class="input-group">
+            <label for="preco-alcool">Preço do Álcool (R$/litro):</label>
+            <input type="number" id="preco-alcool" placeholder="Ex: 3.50">
+        </div>
+
+        <div class="input-group">
+            <label for="preco-gasolina">Preço da Gasolina (R$/litro):</label>
+            <input type="number" id="preco-gasolina" placeholder="Ex: 5.00">
+        </div>
+
+        <button id="calcular">Verificar Viabilidade</button>
+
+        <div id="resultado" class="result">
+            <p id="mensagem-resultado"></p>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>
